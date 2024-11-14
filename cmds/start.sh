@@ -8,8 +8,6 @@ if $(cat /home/kek/vm/files/isRunning.txt); then
 else
 	echo "true" > /home/kek/vm/files/isRunning.txt
 fi
-
-echo "true" > /home/kek/vm/files/isRunning.txt
 # Load the config file with our environmental variables
 source "/home/kek/vm/files/kvm.conf"
 
