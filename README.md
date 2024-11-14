@@ -2,6 +2,7 @@
 
 ## ACS Bypasses
 Manual Buid: https://github.com/benbaker76/linux-acs-override
+
 Prebuilt: https://xanmod.org/
 
 Make sure to reconfigure the driver detach and kvm.conf.
@@ -11,4 +12,5 @@ Hook manager was hit or miss so I find manually starting it thru bash works bett
 
 ## You can find more information on the techniques I used here:
 https://gitlab.com/Karuri/vfio
+
 https://askubuntu.com/questions/1406888/ubuntu-22-04-gpu-passthrough-qemu/1410487#1410487
