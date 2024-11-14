@@ -5,7 +5,7 @@ Manual Buid: https://github.com/benbaker76/linux-acs-override
 
 Prebuilt: https://xanmod.org/
 
-Make sure to reconfigure the driver detach and kvm.conf.
+Make sure to reconfigure based on your drivers, hardware and enviroment.
 
 Don't mention the deprecated use of nodedev-detach, it works for me and the auto detach doesn't.
 Hook manager was hit or miss so I find manually starting it thru bash works better. Especially with a SSH client on my phone.
