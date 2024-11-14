@@ -29,3 +29,4 @@ modprobe nouveau
 # Restart Display Manager
 wait
 systemctl start gdm.service
+echo "false" > /home/kek/vm/files/isRunning.txt
